@@ -1,0 +1,92 @@
+{
+  "guests": [
+    {
+      "id": "5",
+      "name": "Charlie Green",
+      "checkInDate": "2024-07-05",
+      "checkOutDate": "2024-07-24",
+      "room": "105",
+      "phoneNumber": "123-456-7894"
+    },
+    {
+      "id": "6",
+      "name": "Diana Blue",
+      "checkInDate": "2024-07-06",
+      "checkOutDate": "2024-07-10",
+      "room": "106",
+      "phoneNumber": "123-456-7895"
+    },
+    {
+      "id": "7",
+      "name": "Edward Black",
+      "checkInDate": "2024-07-07",
+      "checkOutDate": "2024-07-11",
+      "room": "107",
+      "phoneNumber": "123-456-7896"
+    },
+    {
+      "id": "8",
+      "name": "Fiona White",
+      "checkInDate": "2024-07-08",
+      "checkOutDate": "2024-07-12",
+      "room": "108",
+      "phoneNumber": "123-456-7897"
+    },
+    {
+      "id": "9",
+      "name": "George Yellow",
+      "checkInDate": "2024-07-09",
+      "checkOutDate": "2024-07-13",
+      "room": "109",
+      "phoneNumber": "123-456-7898"
+    },
+    {
+      "id": "10",
+      "name": "Hannah Purple",
+      "checkInDate": "2024-07-10",
+      "checkOutDate": "2024-07-14",
+      "room": "110",
+      "phoneNumber": "123-456-7899"
+    },
+    {
+      "id": "9cd4",
+      "name": "Denning Gichaba",
+      "checkInDate": "2024-07-17",
+      "checkOutDate": "2024-07-17",
+      "room": 13,
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "id": "0fed",
+      "name": "Mike Ross",
+      "checkInDate": "2024-07-20",
+      "checkOutDate": "2024-07-22",
+      "room": 13,
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "id": "d9ec",
+      "name": "harvey specter",
+      "checkInDate": "2024-07-05",
+      "checkOutDate": "2024-07-25",
+      "room": 12,
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "id": "7ba4",
+      "name": "coleone",
+      "checkInDate": "2024-08-01",
+      "checkOutDate": "2024-09-01",
+      "room": 12,
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "id": "b65e",
+      "name": "ryan gosling",
+      "checkInDate": "2024-07-24",
+      "checkOutDate": "2024-08-01",
+      "room": 11,
+      "phoneNumber": "123-456-7890"
+    }
+  ]
+}

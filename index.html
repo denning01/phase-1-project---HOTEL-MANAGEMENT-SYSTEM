@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form-container">
+      <h1>DENNING SUITES</h1>
+      <p>Put your details below</p>
+      <form id="bookingForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        
+        <label for="checkInDate">Check-in Date:</label>
+        <input type="date" id="checkInDate" required>
+        
+        <label for="checkOutDate">Check-out Date:</label>
+        <input type="date" id="checkOutDate" required>
+        
+        <label for="numRooms">Number of Rooms:</label>
+        <input type="number" id="numRooms" min="1" max="20" required>
+        
+        <button type="submit">Book Now</button>
+      </form>
+
+      <div id="availability">
+        <h2>Available Rooms: <span id="availableRooms">20</span></h2>
+      </div>
+    </div>
+
+    <div class="history-container">
+      <h2>Booking History</h2>
+      <button id="fetchHistory">Check Booking History</button>
+      <ul id="guestList"></ul>
+    </div>
+  </div>
+
+  <div id="updateContainer" class="hidden">
+    <h2>Update Booking</h2>
+    <form id="updateForm">
+      <input type="hidden" id="updateId">
+      <label for="updateField">Select Field to Update:</label>
+      <select id="updateField">
+        <option value="name">Name</option>
+        <option value="checkInDate">Check-in Date</option>
+        <option value="checkOutDate">Check-out Date</option>
+      </select>
+      
+      <label for="updateValue">New Value:</label>
+      <input type="date" id="updateValue" required>
+      
+      <button type="submit">Update</button>
+      <button type="button" id="cancelUpdate" >
+        <i class="fas fa-trash-alt"></i> Cancel
+    </button>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
+
